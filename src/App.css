@@ -1,3 +1,13 @@
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
+}
+
 body {
   background-color: #f8f5f1;
   font-family: "Merriweather", serif;
