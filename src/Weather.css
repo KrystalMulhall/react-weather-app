@@ -45,10 +45,10 @@
     height: 5px;
     line-height: normal;
   }
-  .Weather.icon {
-    height: 80px;
-    width: 80px;
+  .Weather.canvas {
     margin-right: 300px;
+    margin-top: 10px;
+    display: inline-block;
   }
   .Weather.temperature {
     color: black;
