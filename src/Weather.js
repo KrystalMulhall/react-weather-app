@@ -56,7 +56,6 @@ setCity(event.target.value);
             </div>
           </div>
         </form>
-        <button>Current</button>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
