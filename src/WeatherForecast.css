@@ -3,11 +3,13 @@
 }
 
 .WeatherForecast-temperature-min {
-    opacity: 0.5;
+    opacity: 0.8;
     margin-left: 6px;
+    font-size: 18px;
 }
-
-.FirstForecast {
-    display: inline-block;
+.WeatherForecast-temperature-max {
+    font-size: 18px;
+}
+.WeatherForecast-day {
     font-size: 20px;
 }

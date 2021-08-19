@@ -72,6 +72,7 @@
     position: relative;
     top: -30px;
   }
-.WeatherForecastDay.FirstForecast {
-  display: inline-block;
-}
+
+  .FirstForecast {
+    font-size: 100px;
+  }
