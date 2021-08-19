@@ -6,3 +6,8 @@
     opacity: 0.5;
     margin-left: 6px;
 }
+
+.FirstForecast {
+    display: inline-block;
+    font-size: 20px;
+}

@@ -28,15 +28,6 @@
     text-align: center;
   }
   
-  .Weather.weather-forecast img {
-    display: inline-block;
-    margin: 0, auto;
-    margin-top: 15px;
-    text-align: center;
-    height: 50px;
-    width: 50px;
-  }
-  
   .Weather.weather-forecast-temperature {
     text-align: center;
     color: #48426d;
@@ -52,15 +43,12 @@
   }
   .Weather.temperature {
     color: black;
-    font-size: 80px;
+    font-size: 30px;
     font-weight: 400;
   }
-  .Weather.units {
-    position: relative;
-    top: -40px;
-  }
+ 
   .Weather.github {
-    margin-left: 20px;
+    margin-left: 100px;
   }
   
   .Weather.active {
@@ -72,3 +60,18 @@
   .Weather.active:hover {
     text-decoration: none;
   }
+
+  .WeatherTemperature {
+   font-size: 60px;
+   font-weight: 300;
+   text-decoration: none;
+  }
+
+  .unit {
+    font-size: 15px;
+    position: relative;
+    top: -30px;
+  }
+.WeatherForecastDay.FirstForecast {
+  display: inline-block;
+}
